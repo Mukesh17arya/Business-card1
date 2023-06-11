@@ -1,0 +1,49 @@
+body {
+    margin: 20px;
+    background-color: beige;
+    height: 100px;
+    font-family:'Georgia', 'Times New Roman', 'Times', 'serif';
+}
+
+.avatar {
+    width: 200px;
+    border-radius:10%;
+}
+
+.card {
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #bee1e6;
+    color: #2b2839;
+    border-top: 7px solid #c55df6;
+    border-bottom:7px solid #c55df6;        
+
+}
+
+button{
+    color:royalblue;
+    margin-right:20px;;
+}
+button:hover{
+    color:red;
+    border:2px dashed #2b2839;
+    border-radius:10%; 
+    cursor: pointer;
+}
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.contact{
+    padding:10px;
+    text-align: end;
+}
+
+img{
+    width:30px;
+}
+
